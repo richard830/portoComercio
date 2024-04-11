@@ -29,9 +29,9 @@ const databaseConfig = {
       "ssl": {"require":true }
       },
 
-      rejectUnauthorized: false,
+     /* rejectUnauthorized: false,
         requestCert: true,
-        agent: false   
+        agent: false   */
 
 
 };
