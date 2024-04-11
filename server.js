@@ -122,13 +122,13 @@ LoCALcOMERCIAL(app, subirImagen);
 
 
 
-server.listen(3000, '192.168.0.104' || 'localhost', function() {
-    console.log('Aplicaion de Nodejs ' + port + ' Iniciada...')
-})
+//server.listen(3000, '192.168.0.104' || 'localhost', function() {
+//    console.log('Aplicaion de Nodejs ' + port + ' Iniciada...')
+//})
 
-// server.listen(port, function() {
-//     console.log('Aplicaion de Nodejs corriendo en ' + port + ' Iniciada...')
-// })
+ server.listen(port, function() {
+    console.log('Aplicaion de Nodejs corriendo en ' + port + ' Iniciada...')
+ })
 
 
 
